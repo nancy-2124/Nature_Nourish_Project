@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | Nature Nourish</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+    <h2 class="logo">Nature Nourish</h2>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resource.html">Resources</a></li>
+        <li><a href="food.html">Recipes</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+    <section id="resources" class="section">
+    <h2>Resources</h2>
+    <p>Learn more about sustainable eating and make informed food choices.</p>
+
+    <div class="resource-grid">
+
+        <div class="resource-card">
+            🌍
+            <h3>Sustainable Eating Basics</h3>
+            <p>Understand how food choices impact health and environment.</p>
+        </div>
+
+        <div class="resource-card">
+            🥗
+            <h3>Plant-Based Nutrition</h3>
+            <p>Learn about the benefits of plant-forward diets for a healthy lifestyle.</p>
+        </div>
+
+        <div class="resource-card">
+            ♻️
+            <h3>Reduce Food Waste</h3>
+            <p>Simple tips to reduce waste at home and save resources.</p>
+        </div>
+
+        <div class="resource-card">
+            📄
+            <h3>Downloadable Guides</h3>
+            <p>Meal planners, food calendars, and eco-friendly tips.</p>
+        </div>
+
+        <div class="resource-card">
+    🧮
+    <h3>Food Impact Calculator</h3>
+    <p>Select a food to estimate its environmental impact.</p>
+
+    <select id="foodSelect">
+        <option value="">Select food</option>
+        <option value="low">Vegetables</option>
+        <option value="low">Fruits</option>
+        <option value="medium">Dairy</option>
+        <option value="high">Meat</option>
+    </select>
+
+    <button onclick="calculateImpact()">Calculate</button>
+
+    <p id="impactResult"></p>
+</div>
+
+
+        <div class="resource-card">
+            🔗
+            <h3>Trusted Organizations</h3>
+            <p>Links to FAO, WHO, and sustainability research.</p>
+        </div>
+
+    </div>
+    <br>
+     <a href="index.html" class="view-all-btn">⬅ Back to Home</a>
+</section>
+</body>
+</html>
