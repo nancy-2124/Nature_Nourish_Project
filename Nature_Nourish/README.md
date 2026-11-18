@@ -2,6 +2,9 @@
 
 Nature Nourish is a static HTML/CSS/JavaScript website focused on sustainable eating.
 
+Live Demo: https://naturenourish-theta.vercel.app/
+Github Repository: https://github.com/nancy-2124/Nature_Nourish_Project/edit/main/Nature_Nourish/
+
 ## Pages
 - `index.html` — Home page
 - `about.html` — About page
